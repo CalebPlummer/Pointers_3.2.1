@@ -6,7 +6,7 @@
 
 /* 
  * File:   main.cpp
- * Author: cplummer
+ * Author: Caleb Plummer
  *
  * Created on September 11, 2017, 1:32 PM
  */
@@ -16,7 +16,7 @@
 using namespace std;
 
 /*
- * 
+ * Finds the smallest number in an array without using pointers rather than indices.
  */
 int main(int argc, char** argv) {
     
