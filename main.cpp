@@ -7,7 +7,7 @@
 /* 
  * File:   main.cpp
  * Author: Caleb Plummer
- *
+ * Email: mail.caleb.plummer@gmail.com
  * Created on September 11, 2017, 1:32 PM
  */
 
@@ -34,6 +34,7 @@ int main(int argc, char** argv) {
         }
         p++;
     }
+    
     cout << smallest;
     
     return 0;
