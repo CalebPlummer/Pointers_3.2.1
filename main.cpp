@@ -21,11 +21,12 @@ using namespace std;
 int main(int argc, char** argv) {
     
     int vector[] = { 3, -5, 7, 10, -4, 14, 5, 2, -13 };
-    int n = (sizeof(vector) / sizeof(vector[0])) * 8;
-    int *p = vector;
+    int n = sizeof(vector) / sizeof(vector[0]);
+    int *p  = vector;
+    
     int smallest = *p;
     
-    while(*p < n)
+    for(int i = 0; i < n; i++)
     {
         if(smallest > *p)
         {
